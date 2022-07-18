@@ -1,0 +1,137 @@
+* {
+  text-decoration : none;
+  margin : 0px;
+  padding : 0px;
+}
+body {
+  margin : 0px;
+  padding : 0px;
+  font-family : 'Open Sans',sans-serif;
+}
+.wrapper {
+  width : 900px;
+  margin : auto;
+  position : relative;
+}
+ .logo a {
+  font-size : 40px;
+  font-weight: bold;
+  float : left;
+  font-family: Courier New;
+  color : #364f6b;
+}
+.menu {
+  float : right;
+}
+nav {
+  width :100%;
+  margin :auto;
+  display :flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top :0;
+  background: #FFFFFF;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin : 0;
+  padding : 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color : black;
+  font-weight: bold;
+  text-align: center;
+  padding :0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+} 
+section {
+  margin :auto;
+  display : flex;
+  margin-bottom: 50px;
+}
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.kolom.deskripsi{
+  font-size: 50px;
+  font-weight: bold
+  font-family:'comic sans-ms';
+  color : #364f6b;
+}
+h2 {
+   font-family:'comic sans-ms';
+   font-weight : 500px;
+   font-size: 45px;
+   margin-bottom: 20px;
+   color : #364f6b;
+   width : 100%;
+   line-height: 50px;
+}
+@media screen and (max-width :991.98px){
+  .wrapper {
+    width :90%;
+  }
+  .logo {
+    display:"block"
+    width:"100%"
+    text-align: center;
+  }
+  nav .menu {
+    width :100%;
+    margin :0;
+  }
+  nav .menu ul {
+    text-align: center;
+    margin :auto;
+    line-height: 60px;
+  }
+  nav .menu ul li{
+    display :inline-block;
+    float :none;
+  }
+}
+.waktu {
+  font-weight: bold;
+}
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 60px;
+  margin-top: 60px;
+  padding :20px 25px 20px 25px;
+  color : #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-biru:hover{
+  background: #fc5185;
+  text-decoration: none;
+}
+.aktip {
+  color :#fc5185;
+}
+.lokasi{
+  text-decoration: none;
+  color :#3f72af;
+  font-size: 30px;
+}
+.alamat {
+  font-family: Sans-Serif;
+  font-size: 25px;
+  color: black;
+}
+.doa {
+  width : 400;
+}
+.form {
+  background-color: :#3f72af;
+}
